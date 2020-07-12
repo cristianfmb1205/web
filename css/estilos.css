@@ -1,0 +1,232 @@
+body{
+    
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+/*----ROW HEADER----*/
+
+
+.fila-header{
+    min-height: 95px;
+    background: #1d1919;   
+}
+
+
+
+/*----ROW HEADER END----*/
+
+
+
+/*---COLUMN #1----*/
+
+
+
+.columnHeader .fab{
+    font-size: 50px;
+    color: #ffffff;  
+}
+
+
+
+.columnHeader{
+
+    color:  #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+
+}
+
+/*---COLUMN #1  END----*/
+
+
+/*---COLUMN #2  START----*/
+
+
+
+
+
+.columnHeader .text-color{
+
+    color:  #fffafa;
+    margin-left: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    
+
+}
+
+.enlases{
+
+    margin-left: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-left: 1px solid rgb(102, 163, 212,2);
+    height: auto;
+    
+}
+
+.columnHeader a {
+    text-decoration: none;
+}
+
+
+
+
+/*---COLUMN #2   END----*/
+
+
+
+
+
+
+/*---SECCION PARALAX START---**/
+
+#paralax{
+
+    background: linear-gradient(
+        rgba(25, 209, 231, 0.5),
+        rgba(243, 17, 224, 0.5)
+      ),url(../fonts/foto1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    
+    
+
+}
+
+
+#paralax .container-paralax h2{
+
+    color: #0c0b0b;
+    padding: 200px 20px;
+    font-size: 50px;
+    font-weight: 800;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.container-paralax .btn{
+    width: 190px;
+    border: 2px solid #000;
+    color: #0000;
+    font-family: 'Orbitron', sans-serif;
+}
+
+/*---SECCION PARALAX END---**/
+
+
+/*--SECCION Uber Mich START---*/
+
+
+
+
+.filaUberMich{
+    background: #000;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 20px 30px;
+
+}
+
+.filaUberMich .textUberMich {
+
+    font-family: 'Orbitron', sans-serif;
+    color: #3a8597;
+    font-size: 40px;
+    margin-top: 10px;
+    text-transform: uppercase;
+
+
+
+}
+
+.filaUberMich .text-parrafo{
+
+
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+}
+
+/*--SECCION Uber Mich END---*/
+
+
+
+/*--SECTION CARDS START----*/
+
+
+.filaUberMich .column-cards{
+    
+    min-height: 200px;
+    
+
+}
+
+.filaUberMich .column-cards .card{
+
+width: 298px;
+height: 408px;
+background: linear-gradient(
+        rgba(127, 145, 206, 0.5),
+        rgba(255, 254, 255, 0.5)
+      );
+
+}
+
+.sizefoto{
+    width:250px;
+    height:170px;
+    
+}
+
+.card-tittle{
+    font-family: 'Orbitron', sans-serif;
+}
+
+/*--SECTION CARDS END----*/
+
+/*--SECTION CONTACTO START----*/
+
+.font-familie{
+
+    font-family: 'Orbitron', sans-serif;
+
+}
+
+.font-familie2{
+
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+.transparencia{
+    background: linear-gradient(
+        rgba(144, 217, 230, 0.8),
+        rgba(180, 169, 179, 0.8)
+      );
+}
+/*--SECTION CONTACTO END----*/
+
+
+/*---------------------------------------------------------------------------------------------------*/
+
+
+/*--SECTION FOOTER START----*/
+
+.fila-footer{
+    height: 95px;
+}
+
+
+
+/*--SECTION FOOTER END----*/
+
